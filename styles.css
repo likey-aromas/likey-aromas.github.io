@@ -81,19 +81,6 @@ p{
 	color: #FFF;
 	margin: 0;
 }
-@media print {
-	body {
-		-webkit-print-color-adjust: exact; 
-		print-color-adjust: exact;
-		background: linear-gradient(to right, #64b3f4, #c2e59c) !important;
-	}
-	.producto {
-		border: 1px solid #ddd;
-		break-inside: avoid;
-		page-break-inside: avoid;
-		background:#EEE;
-	}
-}
 .whatsapp-btn {
     position: fixed;
     bottom: 20px;
@@ -119,6 +106,20 @@ p{
 .whatsapp-btn img {
     width: 35px;
     height: 35px;
+}
+
+@media print {
+	body {
+		-webkit-print-color-adjust: exact; 
+		print-color-adjust: exact;
+		background: linear-gradient(to right, #64b3f4, #c2e59c) !important;
+	}
+	.producto {
+		border: 1px solid #ddd;
+		break-inside: avoid;
+		page-break-inside: avoid;
+		background:#EEE;
+	}
 }
 
 /* --- ESTO ARREGLA EL CELULAR --- */
